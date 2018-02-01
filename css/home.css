@@ -1,0 +1,187 @@
+.firstId{
+	padding: 10px;
+
+}
+
+.firstPw{
+	padding: 10px 7px;
+}
+
+.tate{
+	padding: 10px;
+
+}
+
+
+input:focus {
+    border:solid 1px #EEA34A;
+}
+
+
+h1{
+	background-color:gray;
+	text-align: center;
+}
+
+
+.base{
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	margin:0 0 20px;
+	width:300px;
+
+}
+.abc{
+	text-align: center;
+}
+
+
+
+dt{
+  padding-top : 20px;
+  padding-bottom : 10px;
+  padding-left : 10px;
+  width : 150px;
+/* 左寄せ */
+  float : left;
+/* float解除 */
+  clear : both;
+}
+
+dd{
+  padding-top : 10px;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-bottom : 10px;
+  width : 400px;
+/* dtの幅分の設定 */
+  margin-left : 160px;
+}
+
+
+.main1{
+
+}
+
+
+
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    font-size: 32px;
+}
+.square_btn:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+
+
+table.table-design-set-1 {
+    border-radius: 0;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.04), 0 0 0 1px #E8E8E8 inset;
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 100%;
+    border-spacing: 0;
+    background: none repeat scroll 0 0 #FFF;
+}
+table.table-design-set-1 thead {
+    background: none repeat scroll 0 0 #298CC3;
+    color: #FFFFFF;
+}
+table.table-design-set-1 thead th {
+    padding: 10px 15px;
+    text-align: left;
+}
+table.table-design-set-1 tbody td {
+    border-bottom: 1px solid #E8E8E8;
+    padding: 9px 15px;
+}
+table.table-design-set-1 tbody tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #F7F7F7;
+}
+
+
+
+
+
+.square_btn1{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+.square_btn1:active {/*ボタンを押したとき*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+.parent{
+  width: 300px;
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+
+  position:relative;
+
+
+}
+.inner{
+
+  padding: 5px;
+  margin: 0 10px;
+  width: 240px;
+  display: inline-block;
+}
+
+
+
+
+.flexbox{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  align-items: stretch;
+  border: 1px solid #aaa;
+  text-align: center;
+  height: 150px;
+  padding: 10px;
+  margin: 20px;
+}
+
+
+
+
